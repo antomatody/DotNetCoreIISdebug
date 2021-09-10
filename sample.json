@@ -1,0 +1,26 @@
+{
+  "data": [{
+    "type": "articles",
+    "id": "1",
+    "attributes": {
+      "title": "this is my log ",
+      "body": "BODY"
+    },
+    "relationships": {
+      "author": {
+        "data": {"id": "13", "type": "people"}
+      }
+    }
+  }],
+  "included": [
+    {
+      "type": "people",
+      "id": "13",
+      "attributes": {
+        "name": "Andy",
+        "age": 18,
+        "gender": "male"
+      }
+    }
+  ]
+}
